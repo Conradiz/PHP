@@ -4,6 +4,8 @@
 ## Lista de tarefas em PHP
 - [ ] php variaveis
 - [ ] php condicoes
+- [ ] formatos de string
+- [ ] double quoted
 
 PHP | Versao | Nome
 ---|---|---
