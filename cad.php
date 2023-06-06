@@ -19,6 +19,8 @@
             $nome = $_GET["nome"];
             $sobrenome = $_GET ["sobrenome"];
             echo "<p> É um prazer te conhecer, $nome $sobrenome ! ";
+            $result = 2 + 2 / 2;
+            echo "<p> $result"
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para pagina anterior</a></p>
     </main>
