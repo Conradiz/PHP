@@ -6,6 +6,7 @@
 - [ ] php condicoes
 - [ ] formatos de string
 - [ ] double quoted
+- [ ] functions
 
 PHP | Versao | Nome
 ---|---|---
