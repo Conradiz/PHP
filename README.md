@@ -7,6 +7,7 @@
 - [ ] formatos de string
 - [ ] double quoted
 - [ ] functions
+- [ ] mt_rand()
 
 PHP | Versao | Nome
 ---|---|---
