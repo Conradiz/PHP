@@ -9,6 +9,9 @@
 - [ ] functions
 - [ ] mt_rand()
 - [ ] GET, POST e REQUEST
+
 PHP | Versao | Nome
 ---|---|---
-7| 8.0| Conrado
+7| 7.1| Conrado
+---|---|---
+8 | 8.1 | Lucas
