@@ -8,7 +8,7 @@
 - [ ] double quoted
 - [ ] functions
 - [ ] mt_rand()
-
+- [ ] GET, POST e REQUEST
 PHP | Versao | Nome
 ---|---|---
 7| 8.0| Conrado
