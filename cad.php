@@ -18,6 +18,7 @@
             //pegando o nome e sobrenome com o metodo GET
             $nome = $_GET["nome"];
             $sobrenome = $_GET ["sobrenome"];
+            $sexo = $_GET ["sexo"];
             echo "<p> É um prazer te conhecer, $nome $sobrenome ! ";
             $result = 2 + 2 / 2;
             echo "<p> $result"
