@@ -9,10 +9,10 @@
 - [ ] functions
 - [ ] mt_rand()
 - [ ] GET, POST e REQUEST
-
-PHP | Versao | Nome
+# Super Globais
+Nome | faz |
 ---|---|---
-7| 7.1| Conrado
+$_GET| 7.1| 
 ---|---|---
 8 | 8.1 | Lucas
 
