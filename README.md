@@ -10,11 +10,12 @@
 - [ ] mt_rand()
 - [ ] GET, POST e REQUEST
 # Super Globais
-Nome | faz |
----|---|---
-$_GET| 7.1| 
----|---|---
-8 | 8.1 | Lucas
+
+Nome | faz 
+---|---
+$_GET| 7.1
+---|---
+8 | 8.1 
 
 ```
 $nome = "Lucas";
