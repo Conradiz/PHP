@@ -1,5 +1,5 @@
 # PHP
- Treinando PHP
+ Desafios e soluções em PHP
 
 ## Lista de tarefas em PHP
 - [ ] php variaveis
