@@ -1,5 +1,5 @@
 # PHP
- Treinando PHP
+ Desafios e soluções em PHP
 
 ## Lista de tarefas em PHP
 - [ ] php variaveis
@@ -9,12 +9,13 @@
 - [ ] functions
 - [ ] mt_rand()
 - [ ] GET, POST e REQUEST
+# Super Globais
 
-PHP | Versao | Nome
----|---|---
-7| 7.1| Conrado
----|---|---
-8 | 8.1 | Lucas
+Nome | faz 
+---|---
+$_GET| 7.1
+---|---
+8 | 8.1 
 
 ```
 $nome = "Lucas";
