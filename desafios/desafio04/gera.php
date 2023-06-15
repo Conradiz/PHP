@@ -22,6 +22,10 @@
                 //pegando o valor do formulario
                 $valor = $_GET["valor"];
                 $dolar = $valor / $cotacao;
+                //formatacao de moedas com internacionalização!
+                $padrao = numfmt_create("pt_BR", NumberFormatter::CURRENCY);
+                echo "Seus: ". numfmt_format_currency($padrao, $valor, "BRL"). " equivalem a: " . numfmt_format_currency($padrao, $dolar, "USD");
+                echo "<p>Cotação de hoje $cotacao</p>"
             ?>
         </p>
     </main>
