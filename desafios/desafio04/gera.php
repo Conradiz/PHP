@@ -28,6 +28,7 @@
                 echo "<p>Cotação de hoje $cotacao</p>"
             ?>
         </p>
+        <button onclick="javascript:history.go(-1)">Voltar</button>
     </main>
     
 </body>
