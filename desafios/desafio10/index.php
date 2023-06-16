@@ -11,7 +11,7 @@
         <?php 
             $anonascimento = $_GET["anonas"]?? 2000;
             $ano = date("Y");
-            $anoatual = $_GET[""]
+            $anoatual = $_GET["anoatual"]
         ?>
         <h1>Calculando sua idade</h1>
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
@@ -25,7 +25,8 @@
     <section>
         <h2>Resultado</h2>
         <?php 
-            echo "<p> </p> "
+             $idade = $anoatual - $anonascimento;
+             echo "<p>Quem nasceu em $anonascimento vai ter $idade anos em $ano <!DOCTYPE html> </p> "
         ?>
     </section>
 </body>
