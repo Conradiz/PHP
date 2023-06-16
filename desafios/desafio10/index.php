@@ -9,7 +9,7 @@
 <body>
     <main>
         <?php 
-            $anonascimento = $_GET["anonas"]?? 2000;
+            $anonascimento = $_GET["anonas"]?? '2000';
             $ano = date("Y");
             $anoatual = $_GET["anoatual"]
         ?>
