@@ -22,13 +22,12 @@
         </form>
     </main>
     <section>
-        <h2>Resultado do Reajuste</h2>
-        <?php 
+    <?php 
             $reajuste = $preco * $porcentagem / 100;
             $final = $reajuste + $preco;
-
-            echo "<p> O produto que custava R$".number_format($preco, 2, ",",".") ." com $porcentagem% de aumento vai passar a custar R$ $final a partir de agora</p>"
         ?>
+        <h2>Resultado do Reajuste</h2>
+        <p>O produto que custava R$ <?= number_format($preco,2, ",",".")?> com <?=$porcentagem?>% de aumento vai passar a custar R$<?=$final?>a partir de agora</p>
     </section>
     <script>
         //Declaraçoes automaticas
