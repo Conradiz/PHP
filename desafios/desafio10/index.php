@@ -26,7 +26,7 @@
         <h2>Resultado</h2>
         <?php 
              $idade = $anoatual - $anonascimento;
-             echo "<p>Quem nasceu em $anonascimento vai ter $idade anos em $ano <!DOCTYPE html> </p> "
+             echo "<p>Quem nasceu em $anonascimento vai ter $idade anos em $ano </p> "
         ?>
     </section>
 </body>
