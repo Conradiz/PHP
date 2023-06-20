@@ -17,6 +17,13 @@
     <section>
         <h2>Totalizando tudo</h2>
         <p>Analisando o valor que voce digitou, [?] segundos  a um total de:</p>
+        <ul>
+            <li>0 semanas</li>
+            <li>0 dias</li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </section>
 </body>
 </html>
