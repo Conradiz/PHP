@@ -75,3 +75,40 @@ body{
     font-size: 16px;
     transition:all 0.3s ease;
 }
+/*personalizar o placeholder*/
+.form-login .linha input::placeholder{
+    color: var(--third-color);
+}
+.wrapper-login .form-login .linha i{
+    position: absolute;
+    width: 42px;
+    height: 100%;
+    color: var(--info-color);
+    font-size: 18px;
+    background-color: none;
+    border: 1px solid var(--active-color);
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper-login .form-login .botao input{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 0;
+    background: var(--info-color);
+    border: 1px solid var(--active-color);
+    cursor: pointer;
+}
+.form-login .botao input:hover{
+    background: var(--main-color);
+    color: var(--info-color);
+}
+.wrapper-login .form-login .signup-link a{
+    color: var(--main-bg-color);
+    text-decoration: none;
+}
+.form-login .signup-link a:hover{
+    color: var(--primary-color);
+}
