@@ -13,3 +13,91 @@
     <title>Document</title>
 </head>
 <body>
+    <!--Inicio do menu nav-->
+    <nav class="navbar">
+        <div class="navbar-conteudo">
+            <div class="bars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <img src="images/logo.png" alt="telke" class="logo" width="40">
+        </div>
+        <div class="navbar-conteudo">
+            <div class="notification" >
+                <i class="fa-solid fa-envelope-open-text"></i>
+                <span class="number">7</span>
+                <div class="dropdown-menu">
+                    <div class="dropdown-conteudo">
+                    <li>
+                            <img src="images/avatar.png" alt="usuario">
+                            <div class="text">
+                                notificação que iara aparecer exatamemte aqui
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/avatar.png" alt="usuario">
+                            <div class="text">
+                                notificação que iara aparecer exatamemte aqui
+                            </div>
+                        </li>     
+                    </div>
+                </div>
+            </div>
+            <div class="avatar">
+                <img src="images/avatar.png" alt="usuario">
+                <div class="dropdown-menu config">
+                   <div class="item">
+                        <span class="fa-solid fa-user-tie"> Perfil </span>
+                    </div>
+                    <div class="item">
+                        <span class="fa-solid fa-gear"> Configuracao </span>
+                    </div>
+                    <div class="item">
+                        <span class="fa-solid fa-arrow-right-from-bracket"> Sair </span>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--fim da nav bar-->
+    <!--incio do conteudo-->
+    <div class="conteudo">
+        <!--inicio da Sidebar-->
+            <div class="sidebar">
+                <a href="index.html" class="sidebar-nav active"><i class="icon fa-solid fa-house"></i><span>Dashboard</span></a>
+                <a href="listar.html" class="sidebar-nav"><i class="icon fa-solid fa-users"></i><span>Listar</span></a>
+                <a href="login.html" class="sidebar-nav"><i class="icon fa-solid fa-arrow-right-from-bracket"></i><span>Sair</span></a>
+            </div>
+        <!--fim da Sidebar-->
+        <!--inicio do conteudo do administrativo-->
+        <div class="wrapper">
+            <div class="linha">
+                <div class="box box-um">
+                    <span class="fa-solid fa-users"></span>
+                    <span>397</span>
+                    <span>Usuarios</span>
+                </div>
+
+                <div class="box box-dois">
+                    <span class="fa-solid fa-clipboard-list"></span>
+                    <span>77</span>
+                    <span>Questionarios</span>
+                </div>
+
+                <div class="box box-tres">
+                    <span class="fa-solid fa-clipboard-check"></span>
+                    <span>59</span>
+                    <span>Finalizados</span>
+                </div>
+
+                <div class="box box-quatro">
+                    <span class="fa-solid fa-triangle-exclamation"></span>
+                    <span>5</span>
+                    <span>alertas</span>
+                </div>
+            </div>     
+        </div>
+        <!--fim do conteudo do administrativo-->
+    </div>
+    <script src="js/custom_adm.js"></script>
+</body>
+</html>
