@@ -13,7 +13,12 @@
         $result_usuarios-> execute();
 
             while ($linha_usuario = $result_usuarios->fetch(PDO::FETCH_ASSOC)){
-                
+                extract($linha_usuario);
+                echo"ID: $id <br>";
+                echo "Nome: $nome <br>";
+                echo "Email: $email <br>";
+                //apresentando a data no padrão brasileiro
+                echo "Created:".date('d/m/Y H:i:s', strtotime($created))."<br>";
             }
     
     ?>
